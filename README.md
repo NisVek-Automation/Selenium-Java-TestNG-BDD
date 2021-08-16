@@ -6,6 +6,7 @@
 * [Installation](#installation)
 * [Framework Structure](#framework_structure)
 * [Usage](#usage)
+* [Contributing](#contributing)
 * [Contributor](#contributor)
 
 ## About
