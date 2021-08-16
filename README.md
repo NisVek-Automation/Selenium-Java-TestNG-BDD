@@ -6,7 +6,7 @@
 * [Installation](#installation)
 * [Framework Structure](#framework_structure)
 * [Usage](#usage)
-* [Contributing](#contributing)
+* [Contributor](#contributor)
 
 ## About
 This Repository provides the basic testing framework to start the automation testing.
