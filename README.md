@@ -14,10 +14,11 @@ This Repository provides the basic testing framework to start the automation tes
 ## Technologies
 1. Selenium
 2. Java
-3. log4j2
-4. TestNG
-5. Maven
-6. Page Object Model
+3. TestNG
+4. Cucumber
+6. Maven
+7. Page Object Model
+8. log4j
 
 ## Installation
 
@@ -30,7 +31,9 @@ This Repository provides the basic testing framework to start the automation tes
 #### Plugins:
 
 1. TestNG for Eclipse Plugin
-2. Maven Integration for Eclipse
+2. Cucumber Eclipse Plugin
+3. Maven Integration for Eclipse
+4. Natural
 
 All set!!! Just download the Project folder...
 
@@ -40,13 +43,21 @@ src/com/nisha
 
 	base --> contains Base class for driver factory
 	
-	features --> Cucumber feature files
+	features --> Cucumber/Gherkin feature files directory
 	
 	hooks --> Hooks class file
 	
 	pageObject --> Page object model for each application page which contains object locators and functionality of respective page
 	
 	resource --> Resources which required for project and framework configurations
+	
+		config.properties --> Project related configuration settings
+	
+		extent-config.xml --> Controls the reporting structures of extent log report
+		
+		extent.properties --> Controls all reporting log files
+	
+		log4j.properties --> Controls all logging to console and log files
 	
 	runner --> Test runner file (@CucumberOptions parameters)
 	
@@ -73,7 +84,7 @@ target --> HTML report gets generated
 	
 	cucumber report --> inside cucumberReports folder
 
-pom.xml --> Project dependencies and other maven information
+pom.xml --> Maven pom file for build and dependencies
 
 testng.xml --> TestNG configuration file
 
