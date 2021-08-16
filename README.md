@@ -4,6 +4,9 @@
 * [About](#about)
 * [Technologies](#technologies)
 * [Installation](#installation)
+* [Framework Structure](#framework_structure)
+* [Usage](#usage)
+* [Contributing](#contributing)
 
 ## About
 This Repository provides the basic testing framework to start the automation testing.
@@ -33,45 +36,44 @@ All set!!! Just download the Project folder...
 
 ## Framework Structure
 
-src/test/java
+src/com/nisha
 
-	global --> contains Base class for the execution
+	base --> contains Base class for driver factory
 	
-	hooks --> contains Hooks class file
+	features --> Cucumber feature files
 	
-	objects --> contains object locators
+	hooks --> Hooks class file
 	
-	pages --> contains Business Components
+	pageObject --> Page object model for each application page which contains object locators and functionality of respective page
 	
-	runner --> contains test runner file (@CucumberOptions parameters)
+	resource --> Resources which required for project and framework configurations
 	
-	steps --> contains Step Definition files
+	runner --> Test runner file (@CucumberOptions parameters)
 	
-	utility --> Contains custom utilities developed in the framework and are used globally across the framework
+	stepDefinations --> Step Definition files
 	
-	      CommonFunctions --> contains custom methods to perform Selenium checks/actions
+	utility --> Utilities developed in the framework which are easily use in framework
+	
+	      CommonFunctions --> Methods which easily used for selenium UI operations such as click, enter values and verify
+	      
+	      ConstantHelper --> Constant values which are used in framework
+	      
+	      ExcelSheetHelper --> Excelsheet related functions
+	      
+	      ExceptionHelper --> Custome exception for the framework
+	      
+	      PropertyHelper --> Represents the read functionality of property file
 
-src/test/resources
 
-	features --> contains cucumber feature files
-	
-	sikuli_Images --> contains images for Sikuli actions
-	
-	TestData --> this folder contains test data files (json files preferred)
-	
-	log4j2.properties --> properties file for log4j2
-	
-	extent-config.xml, extent.properties --> configuration file for Extent Reports
+logs --> Execution logs is generated here by log4j2
 
-logs --> execution logs is generated here by log4j2
-
-target --> html report gets generated
+target --> HTML report gets generated
 
 	extent report --> inside ExtentReport folder
 	
 	cucumber report --> inside cucumberReports folder
 
-pom.xml --> contains dependencies and other maven information
+pom.xml --> Project dependencies and other maven information
 
 testng.xml --> TestNG configuration file
 
