@@ -4,7 +4,7 @@
 * [About](#about)
 * [Technologies](#technologies)
 * [Installation](#installation)
-* [Framework Structure](#frameworkStructure)
+* [Framework Structure](#framework-structure)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Contributors](#contributors)
