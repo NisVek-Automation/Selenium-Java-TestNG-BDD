@@ -38,6 +38,21 @@ This Repository provides the basic testing framework to start the automation tes
 
 All set!!! Just download the Project folder...
 
+# **Folder Structure**
+
+├── /CommonFunctions                                 
+/src/main/java/com/CommonFunctions                   # Source files (alternatively `lib` or `app`)
+          ├── CommonFunction.java
+          ├── CommonFunctionBy.java
+          ├── CommonFunctionException.java
+          ├── CommonFunctionGeneric.java
+          ├── CommonFunctionPOJO.java
+          ├── CommonFunctionWebElement.java
+          ├── Validator.java
+          ├── package-info
+├── pom.xml
+└── README.md
+
 ## Framework Structure
 
 src/com/nisha
