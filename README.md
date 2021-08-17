@@ -4,10 +4,10 @@
 * [About](#about)
 * [Technologies](#technologies)
 * [Installation](#installation)
-* [Framework Structure](#framework_structure)
+* [Framework Structure](#frameworkStructure)
 * [Usage](#usage)
 * [Contributing](#contributing)
-* [Contributor](#contributor)
+* [Contributors](#contributors)
 
 ## About
 This Repository provides the basic testing framework to start the automation testing.
@@ -37,21 +37,6 @@ This Repository provides the basic testing framework to start the automation tes
 4. Natural
 
 All set!!! Just download the Project folder...
-
-# **Folder Structure**
-
-├── /CommonFunctions                                 
-/src/main/java/com/CommonFunctions                   # Source files (alternatively `lib` or `app`)
-          ├── CommonFunction.java
-          ├── CommonFunctionBy.java
-          ├── CommonFunctionException.java
-          ├── CommonFunctionGeneric.java
-          ├── CommonFunctionPOJO.java
-          ├── CommonFunctionWebElement.java
-          ├── Validator.java
-          ├── package-info
-├── pom.xml
-└── README.md
 
 ## Framework Structure
 
@@ -91,7 +76,6 @@ src/com/nisha
 	      
 	      PropertyHelper --> Represents the read functionality of property file
 
-
 logs --> Execution logs is generated here by log4j2
 
 target --> HTML report gets generated
@@ -99,7 +83,7 @@ target --> HTML report gets generated
 	extent report --> inside ExtentReport folder
 	
 	cucumber report --> inside cucumberReports folder
-
+	
 pom.xml --> Maven pom file for build and dependencies
 
 testng.xml --> TestNG configuration file
