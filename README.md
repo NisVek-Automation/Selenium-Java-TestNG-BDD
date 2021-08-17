@@ -1,4 +1,4 @@
-# Automation Framework UI Testing : Selenium-Java-TestNG-BDD
+# Automation Framework : UI Testing : Selenium-Java-TestNG-BDD
 
 ## Table of contents
 * [About](#about)
