@@ -1,4 +1,4 @@
-package com.nisha.pageObject;
+package nisha.pageObject;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-import com.nisha.utility.CommonFunctionHelper;
+import nisha.utility.CommonFunctionHelper;
 
 /** 
  * Represents Product page - Page Object model.

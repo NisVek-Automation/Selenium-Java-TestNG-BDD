@@ -1,10 +1,10 @@
-package com.nisha.hooks;
+package nisha.hooks;
 
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
-import com.nisha.base.DriverFactory;
+import nisha.base.DriverFactory;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;

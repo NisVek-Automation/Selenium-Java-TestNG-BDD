@@ -1,4 +1,4 @@
-package com.nisha.utility;
+package nisha.utility;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.Reporter;
 
-import com.nisha.base.DriverFactory;
+import nisha.base.DriverFactory;
 
 /** 
  * Represents a common function helper to read the Testing data.

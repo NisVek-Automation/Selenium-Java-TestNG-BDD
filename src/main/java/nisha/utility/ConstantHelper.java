@@ -1,4 +1,4 @@
-package com.nisha.utility;
+package nisha.utility;
 
 import java.io.File;
 import java.time.Duration;
@@ -15,7 +15,7 @@ public class ConstantHelper {
 	public static final String projectPath = System.getProperty("user.dir");
 	public static final String screenShotPath = projectPath + File.separator + "screenShots" + File.separator;
 	public static final String propertyFileName = "config.properties";
-	public static final String propertyFilePath = projectPath + File.separator + "src/com/nisha/resource/" + propertyFileName;
+	public static final String propertyFilePath = projectPath + File.separator + "src/main/java/nisha/resource/" + propertyFileName;
 
 	// DriverFactory URL
 	public static final String url = "https://www.saucedemo.com/";

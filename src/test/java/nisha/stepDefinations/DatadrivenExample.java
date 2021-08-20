@@ -1,4 +1,4 @@
-package com.nisha.stepDefinations;
+package nisha.stepDefinations;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -12,10 +12,10 @@ import org.openqa.selenium.WebDriver;
 import java.util.*;
 
 import io.cucumber.datatable.DataTable;
-import com.nisha.base.DriverFactory;
-import com.nisha.pageObject.LoginPage;
-import com.nisha.pageObject.ProductPage;
-import com.nisha.utility.CommonFunctionHelper;
+import nisha.base.DriverFactory;
+import nisha.pageObject.LoginPage;
+import nisha.pageObject.ProductPage;
+import nisha.utility.CommonFunctionHelper;
 
 
 /** 

@@ -1,4 +1,4 @@
-package com.nisha.utility;
+package nisha.utility;
 
 import java.util.*;  
 import java.io.*; 

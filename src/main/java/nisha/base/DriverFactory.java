@@ -1,4 +1,4 @@
-package com.nisha.base;
+package nisha.base;
 
 import java.io.File;
 import java.io.FileReader;
@@ -14,7 +14,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
 import org.testng.Assert;
 
-import com.nisha.utility.PropertyHelper;
+import nisha.utility.PropertyHelper;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
