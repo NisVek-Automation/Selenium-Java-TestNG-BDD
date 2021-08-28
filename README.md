@@ -2,8 +2,6 @@
 ![Selenium BDD Framework](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/SeleniumBDD.gif)
 
 
-
-
 ## Table of contents
 * [About](#about)
 * [Technologies](#technologies)
