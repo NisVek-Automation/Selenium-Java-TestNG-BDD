@@ -1,46 +1,81 @@
 # Selenium BDD Framework
 ![Selenium BDD Framework](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/readmeResources/SeleniumBDD.gif)
 
+Don't forget to give this project a ⭐
+<div align="center">
 
-## Table of contents
-* [About](#about)
-* [Technologies](#technologies)
-* [Installation](#installation)
-* [Framework Structure](#framework-structure)
-* [Usage](#usage)
-* [Contributing](#contributing)
-* [Contributors](#contributors)
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-## About
+</div>
+
+## 📝 Table of Contents
+
+- [About](#about)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Getting Started](#getting_started)
+- [Framework Structure](#framework-structure)
+- [Logs and Reporting](#logs-reporting)
+- [Contributing](#contributing)
+- [Authors](#author)
+
+## 🕹 About <a name = "about"></a>
 This Repository provides the basic testing framework to start the automation testing.
 
-## Technologies
-1. Selenium
-2. Java
-3. TestNG
-4. Cucumber
-6. Maven
-7. Page Object Model
-8. log4j
+---
 
-## Installation
+## 🖥️ Technologies <a name = "technologies"></a>
 
-#### Prerequisite:
+- [Selenium](https://www.selenium.dev/)
+- [Java](https://www.java.com/en/)
+- [TestNG](https://testng.org/doc/)
+- [Cucumber]()
+- [Maven](https://maven.apache.org/)
+- [log4j](https://logging.apache.org/log4j/2.x/)
+- Page Object Model
 
-1. Java
-2. Editor e.g. Eclipse
-3. Maven
+---
 
-#### Plugins:
+## ⚙️ Installation <a name = "installation"></a>
 
-1. TestNG for Eclipse Plugin
-2. Cucumber Eclipse Plugin
-3. Maven Integration for Eclipse
-4. Natural
+#### 🎯 Prerequisite:
+
+- [Java](https://www.java.com/en/download/help/index_installing.html) - Programming language
+- [Eclipse](https://www.eclipse.org/downloads/) - Editor
+- [Maven](https://maven.apache.org/index.html) - Software project Management tool
+
+#### 🔌 Plugins:
+
+- [TestNG for Eclipse Plugin](https://testng.org/doc/eclipse.html)
+- [Maven Integration for Eclipse](https://marketplace.eclipse.org/content/maven-integration-eclipse-luna-and-newer)
+- Cucumber Eclipse Plugin
+- Natural
 
 All set!!! Just download the Project folder...
 
-## Framework Structure
+---
+
+## 🔁 Dependencies <a name = "dependencies"></a>
+
+Automation framework dependancies are mentioned in the <b>POM.xml</b> file, and are not limited to.
+
+---
+## 👩‍💻 Getting Started <a name = "getting_started"></a>
+
+How to use this framework?
+- Clone the repository to your workspace.
+
+```sh
+git clone https://github.com/NisVek-Automation/Selenium-Java-TestNG-BDD.git
+```
+
+- Run the TestNG.xml file. You can even run as mvn test which will trigger the TestNG.xml
+
+---
+
+## 🏗️ Framework Structure <a name = "framework-structure"></a>
 
 src/com/nisha
 
@@ -90,24 +125,16 @@ pom.xml --> Maven pom file for build and dependencies
 
 testng.xml --> TestNG configuration file
 
-## Usage
+---
 
-1. Download the Project folder
-
-2. Compile
-
-3. Open Command Prompt, navigate to Project folder. Use below Maven command to run test:
-
-	To run:
-	
-		mvn clean verify
-
-## Contributing
+## 💬 Contributing <a name = "contributing"></a>
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## Contributors
+---
 
-Nisha Vekariya
+## ✍️ Author <a name = "author"></a>
+
+- [@NisVek-Automation](https://www.linkedin.com/in/nisha-vekariya/) - Nisha Vekariya
