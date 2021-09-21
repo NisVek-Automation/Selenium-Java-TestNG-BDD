@@ -31,7 +31,7 @@ This Repository provides the basic testing framework to start the automation tes
 - [Selenium](https://www.selenium.dev/)
 - [Java](https://www.java.com/en/)
 - [TestNG](https://testng.org/doc/)
-- [Cucumber]()
+- [Cucumber](https://cucumber.io/)
 - [Maven](https://maven.apache.org/)
 - [log4j](https://logging.apache.org/log4j/2.x/)
 - Page Object Model
@@ -50,7 +50,7 @@ This Repository provides the basic testing framework to start the automation tes
 
 - [TestNG for Eclipse Plugin](https://testng.org/doc/eclipse.html)
 - [Maven Integration for Eclipse](https://marketplace.eclipse.org/content/maven-integration-eclipse-luna-and-newer)
-- Cucumber Eclipse Plugin
+- [Cucumber Eclipse Plugin](http://cucumber.github.io/cucumber-eclipse/)
 - Natural
 
 All set!!! Just download the Project folder...
