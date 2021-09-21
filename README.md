@@ -1,5 +1,5 @@
 # Selenium BDD Framework
-![Selenium BDD Framework](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/SeleniumBDD.gif)
+![Selenium BDD Framework](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/readmeResources/SeleniumBDD.gif)
 
 
 ## Table of contents
