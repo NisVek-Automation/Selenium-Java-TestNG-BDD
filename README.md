@@ -12,6 +12,8 @@ Don't forget to give this project a ⭐
 ## 📝 Table of Contents
 
 - [About](#about)
+- [Features](#features)
+- [Framework principle](#principle)
 - [Technologies](#technologies)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
@@ -22,7 +24,16 @@ Don't forget to give this project a ⭐
 - [Authors](#author)
 
 ## 🕹 About <a name = "about"></a>
-This is an UI/Web Application test Automation framework to start the BDD style automation testing using open source tools.
+This is an UI/Web Application test Automation framework to start the BDD style automation testing using open source tools.<br>
+This project is a template test automation framework, which provides structured and standard way of creating Cucumber JVM (incorporating Gherkin and the BDD 'Given, When Then' testing construct) based automated test scripts for GUI/Web Application testing.
+
+Demo purpose this framework supports automation of few Web Browsers such as Chrome and Edge. However, easily can add other browsers based on project requirements.
+
+The framework incorporates design principle of BDD (Behaviour driven development) which promotes writing acceptance tests by describing behaviour of application under test in simple english language from the perspective of its stakeholders. Having test written in Natural language helps the Project Team (Product Owners, Business Analysts, Development and QA team) to understand and track the requirements
+
+Supports Custom Page Object model which represents the screens of AUT as a series of objects and encapsulates the fields represented by a page which ultimately avoids duplication and improves code maintainability and readability
+
+Sonar Continuous Code Quality Management: - conventions (Checkstyle) and bad practices (PMD)
 
 ---
 
@@ -36,7 +47,7 @@ Features Supported by Framework :
 - Custom configuration for framework.
 ---
 
-### 🎯 Framework principle :
+### 🎯 Framework principle <a name = "principle"></a>
 
 - <b>Self-explanatory code</b> with near to zero comments.
 - <b>Single responsibility</b> functions principle.
@@ -102,7 +113,7 @@ How to use this framework?
 
 ## 🏗️ Framework Structure <a name = "framework-structure"></a>
 
-Automation Framework Structure:
+### 📚 Automation Framework Structure:
 ```
 Selenium-Java-TestNG-BDD
 └── 📁src/main/java
@@ -131,7 +142,7 @@ Selenium-Java-TestNG-BDD
 	
 
 ```
-Application specific testing structure:
+### 📚 Application specific testing structure:
 
 ```
 Selenium-Java-TestNG-BDD
@@ -151,7 +162,7 @@ Selenium-Java-TestNG-BDD
         └── 📄YourCartPage.java
  ```
 
-##  👀 Logs and Reporting <a name = "logs-reporting"></a>
+###  👀 Logs and Reporting <a name = "logs-reporting"></a>
 
 ```
 
