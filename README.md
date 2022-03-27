@@ -115,7 +115,7 @@ How to use this framework?
 
 ### 📚 Automation Framework Structure:
 ```
-Selenium-Java-TestNG-BDD
+📚Selenium-Java-TestNG-BDD
 └── 📁src/main/java
     ├── 📁com.constants -> Constant values which are used in framework
     │   └── 📄FrameworkConstant.java
@@ -145,7 +145,7 @@ Selenium-Java-TestNG-BDD
 ### 📚 Application specific testing structure:
 
 ```
-Selenium-Java-TestNG-BDD
+📚Selenium-Java-TestNG-BDD
 └──📁src/test/java
     ├── 📁com.features -> Cucumber/Gherkin feature files.
     │   ├── 📄DatadrivenDataTable.feature
@@ -166,7 +166,7 @@ Selenium-Java-TestNG-BDD
 
 ```
 
-Selenium-Java-TestNG-BDD
+📚Selenium-Java-TestNG-BDD
 ├──📁extentReports
 │  ├── 📄ExtentSparkReport.html
 │  └── 📄ExtentReport.pdf
