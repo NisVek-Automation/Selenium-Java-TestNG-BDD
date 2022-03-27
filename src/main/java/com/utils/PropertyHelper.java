@@ -1,7 +1,6 @@
 package com.utils;
 
 import java.util.*;
-import com.reports.Log;
 
 import static com.constants.FrameworkConstant.PROPERTY_FILE_PATH;
 

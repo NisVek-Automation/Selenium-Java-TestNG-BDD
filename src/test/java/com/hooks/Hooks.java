@@ -1,6 +1,8 @@
 package com.hooks;
 
 import com.driver.Driver;
+import com.utils.Log;
+
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
@@ -14,7 +16,7 @@ public class Hooks {
 	
 	@Before(order=0)
     public void beforeScenarioStart(){
-        System.out.println("-----------------Start of Scenario-----------------");
+		Log.logInfo("-----------------Start of Scenario-----------------");
     } 
 	
 	@Before(order=1)
@@ -29,7 +31,7 @@ public class Hooks {
 	
 	@After(order=0)
     public void afterScenarioFinish(){
-        System.out.println("-----------------End of Scenario-----------------");
+        Log.logInfo("-----------------End of Scenario-----------------");
     } 
 
 }

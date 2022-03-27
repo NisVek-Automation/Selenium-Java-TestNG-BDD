@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 @CucumberOptions(
 		features = { "src/test/java/com/features" }, // feature folder path
 		glue = { "com.stepDefinations", "com.hooks" }, // step definition, hooks folder name
-		tags = {"@Signup-DataDriven"}, //what all the tags in feature files need to run
+		//tags = {"@Signup-DataDriven"}, //what all the tags in feature files need to run
 		strict = true,
 		//dryRun = true,     //to check feature vs step definition mapping is correct. if not available stepdef, it shows on console
 		monochrome = true, // to see console output in a clean manner

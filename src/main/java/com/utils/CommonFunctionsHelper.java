@@ -15,8 +15,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import com.constants.FrameworkConstant;
 import com.driver.DriverManager;
-import com.reports.Log;
-import com.reports.ExtentReport;
 
 /**
  * Represents common functionality which used for framework, such as 
@@ -39,7 +37,7 @@ public final class CommonFunctionsHelper {
 		File scrFile = ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.FILE);
 		String targetPath = null;
 		try {
-			targetPath = FrameworkConstant.testCaseScreenShotPath("Test1");
+			targetPath = FrameworkConstant.testCaseScreenShotPath();
 			FileUtils.copyFile(scrFile,new File(targetPath));
 		} catch (IOException e) {
 			e.printStackTrace();
@@ -109,30 +107,5 @@ public final class CommonFunctionsHelper {
 			}
 		}
 	}
-
-	/**
-	 * This method open the report automatically.
-	 */
-	public static void openReport() {
-		if (PropertyHelper.get(PropertyEnum.OPENTESTREPORTAUTOMATICALLY).
-				equalsIgnoreCase(FrameworkConstant.YES)) {
-			File htmlFile = new File(ExtentReport.getReportPath());
-			try {
-				Desktop.getDesktop().browse(htmlFile.toURI());
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-			Log.logInfo("Newly created report is opened successfully.");
-		}
-	}
 	
-	/**
-	 * This method generates the random email id.
-	 * @return return the generated random mail.
-	 */
-	public static String getAutoGenerateMail(int numberOfDigits){
-		String randomestring=RandomStringUtils.randomAlphabetic(numberOfDigits);
-		return randomestring+"@zsf.com";
-	}
-
 }

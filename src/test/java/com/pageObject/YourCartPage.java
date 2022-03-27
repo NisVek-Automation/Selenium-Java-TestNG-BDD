@@ -13,10 +13,10 @@ import com.driver.DriverManager;
 */
 public class YourCartPage extends BasePage{
 	
-	//---------- Objects-------------------
+	//----------------------- Objects ------------------------
 	@FindBy (xpath="//span[@class='title']") WebElement homePageTitle;
 	
-	//------------Methods------------------
+	//----------------------- Methods ------------------------
 	
 	/**
 	 * This constructer method set the driver and PageFactory.
@@ -25,6 +25,4 @@ public class YourCartPage extends BasePage{
 	YourCartPage(){
 		PageFactory.initElements(DriverManager.getDriver(), this);
 	}
-	
-	
 }

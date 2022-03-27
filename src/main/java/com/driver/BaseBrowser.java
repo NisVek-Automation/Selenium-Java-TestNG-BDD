@@ -2,6 +2,8 @@ package com.driver;
 
 import org.openqa.selenium.WebDriver;
 
+import com.utils.Log;
+
 /**
  * Browsers Parent abstract class.
  * 
@@ -21,7 +23,7 @@ public abstract class BaseBrowser {
 		if (driver != null) {
 			driver.close();
 			driver.quit();
-			//LogStatus.info("Browser is closed successfully.");
+			Log.logInfo("Browser is closed successfully.");
 		}
 	}
 

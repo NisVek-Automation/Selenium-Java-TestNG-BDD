@@ -1,7 +1,7 @@
 package com.driver;
 
 import org.openqa.selenium.WebDriver;
-import com.reports.Log;
+import com.utils.Log;
 import com.utils.PropertyEnum;
 import com.utils.PropertyHelper;
 

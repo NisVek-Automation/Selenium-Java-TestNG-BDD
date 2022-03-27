@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import com.driver.DriverManager;
-import com.reports.Log;
+import com.utils.Log;
 import com.utils.SeleniumHelper;
 
 /** 
@@ -32,7 +32,7 @@ public class LoginPage extends BasePage{
 	
 	/**
 	 * This method enters the userName.
-	 * @param searchElement -> String which wanted to search from the Home page.
+	 * @param userName -> UserName.
 	 */
 	public void enterUserName(String userName){
 		SeleniumHelper.enterText(txtUserName, userName);
@@ -41,7 +41,7 @@ public class LoginPage extends BasePage{
 	
 	/**
 	 * This method enters the login password.
-	 * @param searchElement -> String which wanted to search from the Home page.
+	 * @param userPsw -> login password.
 	 */
 	public void enterUserPassword(String userPsw){
 		SeleniumHelper.enterText(txtUserPsw, userPsw);
@@ -50,7 +50,6 @@ public class LoginPage extends BasePage{
 	
 	/**
 	 * This method perform click operation on login button.
-	 * @param searchElement -> String which wanted to search from the Home page.
 	 */
 	public void clickLoginButton(){
 		SeleniumHelper.clickElement(btnLogin);
@@ -59,7 +58,8 @@ public class LoginPage extends BasePage{
 	
 	/**
 	 * This method perform the login process 
-	 * @param searchElement -> String which wanted to search from the Home page.
+	 * @param userName -> UserName.
+	 * @param userPsw -> login password.
 	 */
 	public void loginProcess(String userName, String userPsw){
 		SeleniumHelper.clearText(txtUserName);
