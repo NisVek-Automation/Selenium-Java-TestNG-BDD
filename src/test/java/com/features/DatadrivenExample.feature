@@ -26,4 +26,4 @@ Scenario Outline: Test successful registration of a new user
      Examples:
         | customerEmail             | title                   | cFname | cLname   | fname | lname    | company |
         | nisha.vekariya@ibm.in.com | Sotware QA              | Nisha  | Vekariya | Nishi | Vekariya | IBM     |
-    	| nisha.vekariya@cisco.com  | Sotware Automation Engg | Nisha  | Vekariya | Nishi | Vekariya | Cisco   |
+        | nisha.vekariya@cisco.com  | Sotware Automation Engg | Nisha  | Vekariya | Nishi | Vekariya | Cisco   |

@@ -1,4 +1,4 @@
-package nisha.stepDefinations;
+package com.stepDefinations;
 
 import java.util.*;
 

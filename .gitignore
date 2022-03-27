@@ -5,6 +5,7 @@ reports/*
 test-output/*
 /.classpath
 /.project
+/.idea
 /.settings/
 /.settings/*
 /*.html

@@ -1,21 +1,15 @@
-package nisha.stepDefinations;
+package com.stepDefinations;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.*;
-
 import java.util.List;
 import java.util.Map;
-
-import org.openqa.selenium.WebDriver;
-
-import java.util.*;
-
+import com.driver.Driver;
+import com.driver.DriverManager;
+import com.pageObject.LoginPage;
+import com.pageObject.ProductPage;
 import io.cucumber.datatable.DataTable;
-import nisha.base.DriverFactory;
-import nisha.pageObject.LoginPage;
-import nisha.pageObject.ProductPage;
-import nisha.utility.CommonFunctionHelper;
 
 
 /** 
@@ -23,36 +17,19 @@ import nisha.utility.CommonFunctionHelper;
  * This class collects login credentials from the feature file and
  * perform the datadriven testing.
  * @author Nisha Vekariya
- * @author https://github.com/NisVek-Automation
  * @version 1.0
 */
 public class DatadrivenExample {
-	
-	public WebDriver driver;
-	public CommonFunctionHelper commonFunctions;
-	public LoginPage login;
-	public ProductPage proPage;
-	private String url;
-	
-	@Before
-    public void beforeScenario() throws Exception {
-		driver = DriverFactory.getDriver();
-		commonFunctions = new CommonFunctionHelper(driver);
-		login = new LoginPage(driver);
-		proPage = new ProductPage(driver);
-    }
+	public LoginPage login = new LoginPage();
+	public ProductPage proPage = new ProductPage();
 	
 	@Given("Open Browser and enter url")
 	public void open_Browser_and_enter_url() {
-		
-		url = DriverFactory.getEnvironment();
-		commonFunctions.launch_URL(url);
-		
+		DriverManager.getDriver().get(Driver.getUrl());
 	}
 	
 	@When("User enters {string} and {string}")
 	public void user_enters_and(String userName, String userPsw) {
-		//Enter username and password
 		login.enterUserName(userName);
 		login.enterUserPassword(userPsw);
 	    System.out.println("UserName : " + userName + " and User Password : " + userPsw);
@@ -60,9 +37,8 @@ public class DatadrivenExample {
 
 	@Then("After submit, Home page should be opened")
 	public void after_submit_Home_page_should_be_opened() {
-		//login and check home page
 		login.clickLoginButton();
-		proPage.verifyHomePageLogo();
+		proPage.isHomePageLogo();
 	}
 	
 	

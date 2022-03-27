@@ -1,17 +1,12 @@
-package nisha.runner;
-
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.DataProvider;
-import org.testng.annotations.Test;
+package com.runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import io.cucumber.testng.CucumberOptions.SnippetType;
 
 @CucumberOptions(
-		features = { "src/test/java/nisha/features" }, // feature folder path
-		glue = { "nisha.stepDefinations", "nisha.hooks" }, // step definition, hooks folder name
+		features = { "src/test/java/com/features" }, // feature folder path
+		glue = { "com.stepDefinations", "com.hooks" }, // step definition, hooks folder name
 		tags = {"@Signup-DataDriven"}, //what all the tags in feature files need to run
 		strict = true,
 		//dryRun = true,     //to check feature vs step definition mapping is correct. if not available stepdef, it shows on console
