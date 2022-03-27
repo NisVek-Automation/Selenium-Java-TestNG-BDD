@@ -37,7 +37,7 @@ Sonar Continuous Code Quality Management: - conventions (Checkstyle) and bad pra
 
 ---
 
-## ✨ Features <a name = "features"></a>
+## 🧐 Features <a name = "features"></a>
 
 Features Supported by Framework :
 - Capable for BDD style UI testing.
