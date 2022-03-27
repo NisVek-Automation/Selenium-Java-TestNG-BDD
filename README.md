@@ -104,6 +104,7 @@ How to use this framework?
 
 Automation Framework Structure:
 ```
+Selenium-Java-TestNG-BDD
 └── 📁src/main/java
     ├── 📁com.constants -> Constant values which are used in framework
     │   └── 📄FrameworkConstant.java
@@ -133,7 +134,8 @@ Automation Framework Structure:
 Application specific testing structure:
 
 ```
-    📁src/test/java
+Selenium-Java-TestNG-BDD
+└──📁src/test/java
     ├── 📁com.features -> Cucumber/Gherkin feature files.
     │   ├── 📄DatadrivenDataTable.feature
     │   └── 📄DatadrivenExample.feature
@@ -149,18 +151,21 @@ Application specific testing structure:
         └── 📄YourCartPage.java
  ```
 
+##  👀 Logs and Reporting <a name = "logs-reporting"></a>
 
-logs --> Execution logs is generated here by log4j2
+```
 
-target --> HTML report gets generated
+Selenium-Java-TestNG-BDD
+├──📁extentReports
+│  ├── 📄ExtentSparkReport.html
+│  └── 📄ExtentReport.pdf
+├──📁logs
+│  └── 📄test.log
+└──📁reports
+   ├── 📄cucumberreports.....
+   └── 📄...
 
-	extent report --> inside ExtentReport folder
-	
-	cucumber report --> inside cucumberReports folder
-	
-pom.xml --> Maven pom file for build and dependencies
-
-testng.xml --> TestNG configuration file
+```
 
 ---
 
