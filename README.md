@@ -1,4 +1,4 @@
-# Selenium BDD Framework
+# UI/Web Application Testing - Selenium BDD Framework
 ![Selenium BDD Framework](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/readmeResources/SeleniumBDD.gif)
 
 Don't forget to give this project a ⭐
@@ -22,18 +22,45 @@ Don't forget to give this project a ⭐
 - [Authors](#author)
 
 ## 🕹 About <a name = "about"></a>
-This Repository provides the basic testing framework to start the automation testing.
+This is an UI/Web Application test Automation framework to start the BDD style automation testing using open source tools.
+
+---
+
+## ✨ Features <a name = "features"></a>
+
+Features Supported by Framework :
+- Capable for BDD style UI testing.
+- Separate log file for investigation of issue.
+- Extent reporting with detail error and screenshots attached.
+- Supports cross browsers Testing.
+- Custom configuration for framework.
+---
+
+### 🎯 Framework principle :
+
+- <b>Self-explanatory code</b> with near to zero comments.
+- <b>Single responsibility</b> functions principle.
+- Highly readable and maintainable code.
+- Test Cases, Test data, config, framework entities, everything is well separated and results in <b>zero duplication</b> anywhere.
+- <b>Page object model design pattern</b> to handle the page objects and related functionality.
+- <b>Builder design pattern</b> used for some pages for readable code.
+- Each file is provided with <b>documentation</b>, can easily generate the document for this framework.
+- Easily enhanced and expand the framework with minimal update, if anything changed in applications.
 
 ---
 
 ## 🖥️ Technologies <a name = "technologies"></a>
 
-- [Selenium](https://www.selenium.dev/)
-- [Java](https://www.java.com/en/)
-- [TestNG](https://testng.org/doc/)
-- [Cucumber](https://cucumber.io/)
-- [Maven](https://maven.apache.org/)
-- [log4j](https://logging.apache.org/log4j/2.x/)
+- [Selenium](https://www.selenium.dev/) - Automation tool
+- [Java](https://www.java.com/en/) - Programming language
+- [TestNG](https://testng.org/doc/) - Test Management library
+- [Cucumber](https://cucumber.io/) - BDD style tool
+- [Maven](https://maven.apache.org/) - Build automation tool
+- [log4j](https://logging.apache.org/log4j/2.x/) - Logging framework
+- [Eclipse](https://www.eclipse.org) - IDE
+- [Extent Reports](https://www.extentreports.com/) - Reporting framework
+- [GitHub](https://github.com/) - Version control
+- [Jenkins](https://www.jenkins.io/) - CI tool
 - Page Object Model
 
 ---
@@ -48,10 +75,11 @@ This Repository provides the basic testing framework to start the automation tes
 
 #### 🔌 Plugins:
 
-- [TestNG for Eclipse Plugin](https://testng.org/doc/eclipse.html)
-- [Maven Integration for Eclipse](https://marketplace.eclipse.org/content/maven-integration-eclipse-luna-and-newer)
-- [Cucumber Eclipse Plugin](http://cucumber.github.io/cucumber-eclipse/)
-- Natural
+- [TestNG for Eclipse Plugin](https://testng.org/doc/eclipse.html) - Test management framework
+- [Maven Integration for Eclipse](https://marketplace.eclipse.org/content/maven-integration-eclipse-luna-and-newer) - Build tool
+- [Cucumber Eclipse Plugin](http://cucumber.github.io/cucumber-eclipse/) - BDD Cucumber
+- [QAF BDD Editor](https://marketplace.eclipse.org/content/qaf-bdd-editors) - Syntax checking for BDD Feature file
+- [Natural](https://marketplace.eclipse.org/content/natural) - Coloured readable feature file
 
 All set!!! Just download the Project folder...
 
@@ -66,10 +94,7 @@ Automation framework dependancies are mentioned in the <b>POM.xml</b> file, and 
 
 How to use this framework?
 - Clone the repository to your workspace.
-
-```sh
-git clone https://github.com/NisVek-Automation/Selenium-Java-TestNG-BDD.git
-```
+`git clone https://github.com/NisVek-Automation/Selenium-Java-TestNG-BDD.git`
 
 - Run the TestNG.xml file. You can even run as mvn test which will trigger the TestNG.xml
 
