@@ -178,6 +178,8 @@ How to use this framework?
 
 ```
 
+![Appium Mobile Automation](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/SeleniumBDDResources/ExtentSpartReport.gif)
+
 ---
 
 ## 💬 Contributing <a name = "contributing"></a>
