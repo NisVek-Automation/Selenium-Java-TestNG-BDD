@@ -1,8 +1,6 @@
 # UI/Web Application Testing - Selenium BDD Framework
 ![Selenium BDD Framework](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/readmeResources/SeleniumBDD.gif)
 
-![Appium Mobile Automation](https://github.com/NisVek-Automation/Appium-Automation/blob/main/DemoFiles/Execution.gif)
-
 Don't forget to give this project a ⭐
 <div align="center">
 
