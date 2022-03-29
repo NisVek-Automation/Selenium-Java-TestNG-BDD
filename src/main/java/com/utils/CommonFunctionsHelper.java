@@ -73,6 +73,15 @@ public final class CommonFunctionsHelper {
 	}
 	
 	/**
+	 * Take screenshot as byte image to attach in the extent report. 
+	 * <br>Converting image into byte format.
+	 * @return return the image as byte.
+	 */
+	public static byte[] getImageAsByte() {
+		return ((TakesScreenshot) DriverManager.getDriver()).getScreenshotAs(OutputType.BYTES);
+	}
+	
+	/**
 	 * This method gives the current date and time on specific format.
 	 * @return It returns time in specific format.
 	 */

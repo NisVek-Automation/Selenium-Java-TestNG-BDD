@@ -1,0 +1,271 @@
+[INFO ] 2022-03-29 15:27:19 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:27:19 Log:66 - Property load successfully.
+[INFO ] 2022-03-29 15:27:21 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:27:21 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:27:21 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:27:22 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:27:22 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:27:22 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:27:23 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:27:23 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:27:23 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:27:23 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:27:23 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:27:23 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:27:24 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:27:24 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:27:24 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:27:25 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:27:25 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:27:25 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:27:26 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:27:26 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:27:26 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:27:26 Log:66 - Enter the UserName on Login page : standard_user
+[INFO ] 2022-03-29 15:27:27 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:27:27 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:27:28 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:27:28 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:27:28 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:27:28 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:27:29 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:27:29 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:27:29 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:27:29 Log:66 - Enter the UserName on Login page : problem_user
+[INFO ] 2022-03-29 15:27:30 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:27:30 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:27:30 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:27:31 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:27:31 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:27:31 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:27:32 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:27:32 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:27:32 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:27:32 Log:66 - Enter the UserName on Login page : performance_glitch_user
+[INFO ] 2022-03-29 15:27:32 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:27:38 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:27:38 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:27:39 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:27:39 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:27:39 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:27:40 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:27:40 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:27:40 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:27:40 Log:66 - Enter the UserName on Login page : locked_out_user
+[INFO ] 2022-03-29 15:27:41 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:27:41 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:28:02 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:28:02 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:35:05 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:35:05 Log:66 - Property load successfully.
+[INFO ] 2022-03-29 15:35:07 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:35:07 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:35:07 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:35:08 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:35:08 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:35:08 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:35:09 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:35:09 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:35:09 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:35:09 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:35:09 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:35:09 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:35:10 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:35:11 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:35:11 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:35:11 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:35:11 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:35:11 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:35:12 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:35:12 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:35:12 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:35:13 Log:66 - Enter the UserName on Login page : standard_user
+[INFO ] 2022-03-29 15:35:13 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:35:13 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:35:14 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:35:14 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:35:14 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:35:14 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:35:15 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:35:15 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:35:15 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:35:16 Log:66 - Enter the UserName on Login page : problem_user
+[INFO ] 2022-03-29 15:35:16 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:35:16 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:35:17 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:35:17 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:35:17 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:35:17 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:35:18 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:35:18 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:35:18 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:35:19 Log:66 - Enter the UserName on Login page : performance_glitch_user
+[INFO ] 2022-03-29 15:35:19 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:35:24 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:35:25 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:35:25 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:35:25 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:35:25 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:35:26 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:35:26 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:35:26 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:35:27 Log:66 - Enter the UserName on Login page : locked_out_user
+[INFO ] 2022-03-29 15:35:27 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:35:27 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:35:48 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:35:48 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:51:12 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:51:12 Log:66 - Property load successfully.
+[INFO ] 2022-03-29 15:51:15 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:51:15 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:51:15 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:51:15 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:51:15 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:51:15 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:51:17 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:51:17 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:51:17 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:51:17 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:51:17 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:51:17 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:51:18 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:51:18 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:51:18 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:51:18 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:51:18 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:51:18 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:51:19 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:51:20 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:51:20 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:51:20 Log:66 - Enter the UserName on Login page : standard_user
+[INFO ] 2022-03-29 15:51:20 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:51:21 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:51:21 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:51:22 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:51:22 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:51:22 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:51:23 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:51:23 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:51:23 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:51:23 Log:66 - Enter the UserName on Login page : problem_user
+[INFO ] 2022-03-29 15:51:24 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:51:24 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:51:24 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:51:25 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:51:25 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:51:25 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:51:26 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:51:26 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:51:26 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:51:27 Log:66 - Enter the UserName on Login page : performance_glitch_user
+[INFO ] 2022-03-29 15:51:27 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:51:32 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:51:33 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 15:51:33 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:51:33 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 15:51:33 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 15:51:34 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 15:51:34 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 15:51:34 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 15:51:35 Log:66 - Enter the UserName on Login page : locked_out_user
+[INFO ] 2022-03-29 15:51:35 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 15:51:35 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 15:51:46 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 15:51:46 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:04:35 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:04:35 Log:66 - Property load successfully.
+[INFO ] 2022-03-29 16:04:37 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 16:04:37 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 16:04:37 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:04:38 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 16:04:38 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:04:38 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:04:39 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 16:04:39 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 16:04:39 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:04:39 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 16:04:39 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:04:39 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:04:40 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 16:04:40 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 16:04:40 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:04:41 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 16:04:41 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:04:41 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:04:42 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 16:04:42 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 16:04:42 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:04:42 Log:66 - Enter the UserName on Login page : standard_user
+[INFO ] 2022-03-29 16:04:43 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 16:04:43 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 16:04:43 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 16:04:44 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 16:04:44 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:04:44 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:04:45 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 16:04:45 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 16:04:45 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:04:45 Log:66 - Enter the UserName on Login page : problem_user
+[INFO ] 2022-03-29 16:04:45 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 16:04:46 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 16:04:46 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 16:04:47 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 16:04:47 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:04:47 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:04:48 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 16:04:48 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 16:04:48 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:04:48 Log:66 - Enter the UserName on Login page : performance_glitch_user
+[INFO ] 2022-03-29 16:04:48 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 16:04:53 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 16:04:54 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 16:04:55 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 16:04:55 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:04:55 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:04:56 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 16:04:56 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 16:04:56 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:04:56 Log:66 - Enter the UserName on Login page : locked_out_user
+[INFO ] 2022-03-29 16:04:56 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 16:04:57 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 16:05:07 Log:66 - Browser is closed successfully.
+[INFO ] 2022-03-29 16:05:07 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:06:46 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:06:46 Log:66 - Property load successfully.
+[INFO ] 2022-03-29 16:06:48 Log:66 - Driver is initialized with browser : chrome
+[INFO ] 2022-03-29 16:06:48 Log:66 - Browser is opened and maximize successfully.
+[INFO ] 2022-03-29 16:06:48 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:06:48 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:06:48 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:06:48 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:06:49 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:06:49 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:06:49 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:06:49 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:06:49 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:06:49 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:06:49 Log:66 - Enter the UserName on Login page : standard_user
+[INFO ] 2022-03-29 16:06:49 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 16:06:50 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 16:06:50 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 16:06:51 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:06:51 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:06:51 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:06:51 Log:66 - Enter the UserName on Login page : problem_user
+[INFO ] 2022-03-29 16:06:51 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 16:06:51 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 16:06:52 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 16:06:52 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:06:52 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:06:52 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:06:52 Log:66 - Enter the UserName on Login page : performance_glitch_user
+[INFO ] 2022-03-29 16:06:52 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 16:06:57 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 16:06:58 Log:26 - Logout from the application successfully.
+[INFO ] 2022-03-29 16:06:58 Log:66 - -----------------End of Scenario-----------------
+[INFO ] 2022-03-29 16:06:58 Log:66 - -----------------Start of Scenario-----------------
+[INFO ] 2022-03-29 16:06:58 Log:66 - Driver is initialized Successfully.
+[INFO ] 2022-03-29 16:06:59 Log:66 - Enter the UserName on Login page : locked_out_user
+[INFO ] 2022-03-29 16:06:59 Log:66 - Enter the password on Login page : secret_sauce
+[INFO ] 2022-03-29 16:06:59 Log:66 - Login button is clicked.
+[INFO ] 2022-03-29 16:07:10 Log:66 - -----------------End of Scenario-----------------

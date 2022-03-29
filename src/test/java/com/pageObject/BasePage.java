@@ -1,5 +1,7 @@
 package com.pageObject;
 
+import java.util.List;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -14,7 +16,7 @@ import com.utils.SeleniumHelper;
 public class BasePage {
 	
 	//----------------------- Objects ------------------------
-	@FindBy (className="app_logo") WebElement homePageLogo;
+	@FindBy (className="app_logo") List<WebElement> homePageLogo;
 	
 	
 	//----------------------- Methods ------------------------
@@ -25,7 +27,7 @@ public class BasePage {
 	/**
 	 * This method verify the logo on product page.
 	 */
-	public boolean isHomePageLogo(){
-		return SeleniumHelper.isElementDisplayed(homePageLogo);
+	public int isHomePageLogo(){
+		return homePageLogo.size();
 	}
 }

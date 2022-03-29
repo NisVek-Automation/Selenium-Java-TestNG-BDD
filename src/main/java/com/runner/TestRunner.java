@@ -13,7 +13,7 @@ import io.cucumber.testng.CucumberOptions.SnippetType;
 		monochrome = true, // to see console output in a clean manner
 		snippets = SnippetType.UNDERSCORE,   //Generate codSnippet in underscore type. SnippetType.CAMELCASE --> as camelcase style
 		plugin = { "pretty", //Better format options for HTML Report
-				"html:reports/cucumberHTMLReports",  //Generates HTML Report
+			//	"html:reports/cucumberHTMLReports",  //Generates HTML Report
 				"json:reports/cucumberJsonReports.json", //Generate Json Report
 				"usage:reports/cucumber-usage.json",
 				"progress:reports/cucumber-progress.txt",

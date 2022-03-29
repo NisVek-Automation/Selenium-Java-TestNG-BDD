@@ -2,6 +2,9 @@ package com.stepDefinations;
 
 import io.cucumber.java.After;
 import io.cucumber.java.en.*;
+
+import org.testng.Assert;
+
 import com.driver.Driver;
 import com.driver.DriverManager;
 import com.pageObject.LoginPage;
@@ -34,7 +37,7 @@ public class DatadrivenExample {
 	@Then("submit the login form, Home page should be opened")
 	public void submit_the_login_form_Home_page_should_be_opened() {
 		login.clickLoginButton();
-		proPage.isHomePageLogo();
+		Assert.assertNotEquals(0,login.isHomePageLogo(), "Home page is not displayed..... Please check the credentials for login.");
 	}
 	
 	@After("@SignIn-DataDriven")
