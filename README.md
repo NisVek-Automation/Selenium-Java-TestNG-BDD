@@ -45,9 +45,12 @@ Features Supported by Framework :
 - Extent reporting in HTML and PDF format with detail error and screenshots attached.
 - Supports cross browsers Testing.
 - Custom configuration for framework.
----
 
 ![Appium Mobile Automation](https://github.com/NisVek-Automation/NisVek-Automation/blob/main/SeleniumBDDResources/ExtentPdfReport.gif)
+
+---
+
+
 
 
 ### 🎯 Framework principle <a name = "principle"></a>
